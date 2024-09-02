@@ -18,7 +18,7 @@ In this project, we will analyse customer-level data of a leading telecom firm, 
 
  
 
-# Understanding and defining churn
+### Understanding and defining churn
 There are two main models of payment in the telecom industry - postpaid (customers pay a monthly/annual bill after using the services) and prepaid (customers pay/recharge with a certain amount in advance and then use the services).
 
  
@@ -39,7 +39,7 @@ This project is based on the Indian and Southeast Asian market.
 
  
 
-# Definitions of churn
+### Definitions of churn
 There are various ways to define churn, such as:
 
 Revenue-based churn: Customers who have not utilised any revenue-generating facilities such as mobile internet, outgoing calls, SMS etc. over a given period of time. One could also use aggregate metrics such as ‘customers who have generated less than INR 4 per month in total/average/median revenue’.
@@ -62,7 +62,7 @@ In this project, we will use the usage-based definition to define churn.
 
  
 
-High-value churn
+#### High-value churn
 In the Indian and the Southeast Asian market, approximately 80% of revenue comes from the top 20% customers (called high-value customers). Thus, if we can reduce churn of the high-value customers, we will be able to reduce significant revenue leakage.
 
  
@@ -71,7 +71,7 @@ In this project, we will define high-value customers based on a certain metric (
 
  
 
-# Understanding the business objective and the data
+## Understanding the business objective and the data
 The dataset contains customer-level information for a span of four consecutive months - June, July, August and September. The months are encoded as 6, 7, 8 and 9, respectively. 
 
 
@@ -79,7 +79,7 @@ The business objective is to predict the churn in the last (i.e. the ninth) mont
 
  
 
-# Understanding customer behaviour during churn
+## Understanding customer behaviour during churn
 Customers usually do not decide to switch to another competitor instantly, but rather over a period of time (this is especially applicable to high-value customers). In churn prediction, we assume that there are three phases of customer lifecycle :
 
 The ‘good’ phase: In this phase, the customer is happy with the service and behaves as usual.
